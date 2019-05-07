@@ -3,7 +3,7 @@ with the webkb University data.
 
 The whole process can be broken down into the following processes
 
-A. Using fetch_data.ipynb
+A. Using scrape.ipynb
 =========================
 
 1. This file helps to get the data structured into a CSV file from the various HTML
@@ -19,7 +19,7 @@ different path, please update the input argument for the line
 
 4. Finally, the data is stored to a CSV named "data.csv".
 
-B. Using analysis.ipynb
+B. Using classifier.ipynb
 =======================
 
 1. This file takes input from "data.csv" [by default].
